@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>随你画</title>
+	<link rel="stylesheet" type="text/css" href="css/demo.css">
+	<script src="js/srcc.js"></script>
+</head>
+<body> 
+	<canvas id="canvas" width="719" height="342"></canvas>
+<div id="options">
+<input type="range" id="cuxi" min="1" max="50" step="1" value="10">
+    <span id="cx">10</span>
+    <input type="color" name="" id="yanse">
+        <ul id="actions">
+            <li>
+                <svg id="eraser">
+                    <use xlink:href="#icon-eraser"></use>
+                </svg>
+            </li>
+            <li>
+                <svg id="clearall">
+                    <use xlink:href="#icon-clearall"></use>
+                </svg>
+            </li>
+            <li>
+                <svg id="save">
+                    <use xlink:href="#icon-save"></use>
+                </svg>
+            </li>
+        </ul>
+    </div>
+
+
+	<script src="js/demo.js"></script>
+</body>
+</html>
